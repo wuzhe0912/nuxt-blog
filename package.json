@@ -1,5 +1,5 @@
 {
-  "name": "nuxt_demo_namecard",
+  "name": "nuxt_demo",
   "version": "1.0.0",
   "description": "Nuxt.js project",
   "author": "zhethon <kgb00128@gmail.com>",
@@ -13,7 +13,11 @@
     "precommit": "npm run lint"
   },
   "dependencies": {
-    "nuxt": "^1.0.0"
+    "node-sass": "^4.8.3",
+    "nuxt": "^1.0.0",
+    "pug": "^2.0.3",
+    "pug-loader": "^2.4.0",
+    "sass-loader": "^7.0.1"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.1",
