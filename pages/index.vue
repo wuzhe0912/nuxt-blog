@@ -4,6 +4,7 @@
       app-logo
       h1.title Nuxt_Demo
       h2.subtitle Nuxt.js project
+      nuxt-link(to="/user") User
 </template>
 <script>
 import AppLogo from '~/components/AppLogo.vue'
