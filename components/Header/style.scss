@@ -1,0 +1,30 @@
+@import '@/assets/scss/share.scss';
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: to-rem(70px);
+  padding: 0 to-rem(32px);
+  background: $header-bg;
+  border-bottom: 1px solid $border-line;
+}
+
+.logo {
+  width: to-rem(100px);
+  height: to-rem(50px);
+  background: url("~assets/images/nuxt-logo.svg") no-repeat;
+  background-size: contain;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  width: to-rem(150px);
+}
+
+.link-txt {
+  font-size: $font-huge;
+  color: $light;
+}

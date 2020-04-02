@@ -1,5 +1,5 @@
 <template lang="pug">
-  .wrap home
+  .error__wrap this error page
 </template>
 
 <script>
@@ -11,5 +11,5 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-  @import '@/assets/scss/share.scss';
+
 </style>
