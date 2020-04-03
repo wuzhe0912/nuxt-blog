@@ -8,15 +8,20 @@
 }
 
 .post-img {
+  @include breakpoint($pad, true) {
+    height: to-rem(300px);
+  }
+
   display: flex;
   align-items: center;
   overflow: hidden;
-  height: to-rem(300px);
+  height: to-rem(200px);
 }
 
 .post-container {
   margin-top: to-rem(32px);
   width: 80%;
+  overflow: auto;
 }
 
 .post-title {

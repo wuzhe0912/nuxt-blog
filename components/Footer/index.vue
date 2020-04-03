@@ -1,5 +1,6 @@
 <template lang="pug">
-
+  .footer-wrap
+    span.footer-text &copy; 2020 PittWu
 </template>
 
 <script>

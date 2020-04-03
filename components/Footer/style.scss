@@ -1,1 +1,13 @@
 @import '@/assets/scss/share.scss';
+
+.footer-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: to-rem(70px);
+  background: $header-bg;
+  color: $light;
+  margin-top: to-rem(24px);
+  font-size: to-rem(24px);
+}
