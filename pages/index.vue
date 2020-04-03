@@ -31,7 +31,7 @@ export default {
       return {
         postList: res.data.stories.map((node) => {
           return {
-            id: node.content._uid,
+            id: node.slug,
             title: node.content.title,
             summary: node.content.summary,
             content: node.content.content,

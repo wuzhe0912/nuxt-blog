@@ -1,0 +1,37 @@
+@import '@/assets/scss/share.scss';
+
+.post-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.post-img {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  height: to-rem(300px);
+}
+
+.post-container {
+  margin-top: to-rem(32px);
+  width: 80%;
+}
+
+.post-title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: to-rem(16px);
+}
+
+.post-content /deep/ pre {
+  background-color: #f7f7f7;
+  margin: to-rem(8px) 0;
+  padding: to-rem(8px);
+  overflow: auto;
+}
+
+.post-content /deep/ h2,h3 {
+  margin: to-rem(8px) 0;
+}

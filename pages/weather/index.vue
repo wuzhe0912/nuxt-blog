@@ -1,5 +1,5 @@
 <template lang="pug">
-  div about
+  div weather
 </template>
 
 <script>

@@ -3,8 +3,8 @@
     .logo
     nav.main-nav
       ul.nav-links
-        nuxt-link.link-txt(to="/") Home
-        nuxt-link.link-txt(to="/about") About
+        nuxt-link.link-txt(to="/") Blog
+        nuxt-link.link-txt(to="/weather") Weather
 </template>
 
 <script>
