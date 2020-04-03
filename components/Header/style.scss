@@ -27,4 +27,14 @@
 .link-txt {
   font-size: $font-huge;
   color: $light;
+  height: to-rem(32px);
+
+  &:hover {
+    color: $dark;
+  }
+}
+
+.nuxt-link-exact-active {
+  color: $dark;
+  border-bottom: 2px solid $dark;
 }

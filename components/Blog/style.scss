@@ -1,0 +1,64 @@
+@import '@/assets/scss/share.scss';
+
+.preview-wrap {
+  @include breakpoint($pad, true) {
+    height: to-rem(420px);
+  }
+  @include breakpoint($pad, true) {
+    width: calc(95% / 2);
+  }
+
+  display: flex;
+  border: 1px solid $border-line;
+  width: 100%;
+  height: to-rem(300px);
+  margin-bottom: to-rem(16px);
+  overflow: auto;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .5);
+
+  a {
+    display: block;
+    width: 100%;
+  }
+}
+
+.post-preview {
+  display: flex;
+  flex-direction: column;
+  color: $dark;
+}
+
+.preview-title {
+  display: flex;
+  justify-content: center;
+  margin: to-rem(8px) 0;
+  font-size: $font-large;
+  font-weight: bold;
+}
+
+.preview-img {
+  @include breakpoint($pad, true) {
+    height: to-rem(320px);
+  }
+
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  height: to-rem(200px);
+
+  img {
+    display: block;
+  }
+}
+
+.preview-text {
+  @include breakpoint($pad, true) {
+    font-size: $font-normal;
+  }
+
+  display: flex;
+  margin-top: to-rem(12px);
+  margin-left: to-rem(8px);
+  font-size: $font-small;
+}
+

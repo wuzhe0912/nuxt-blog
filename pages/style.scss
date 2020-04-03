@@ -1,0 +1,40 @@
+@import '@/assets/scss/share.scss';
+
+.wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.title-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: to-rem(90px);
+}
+
+.title-txt {
+  color: $primary;
+  font-size: to-rem(36px);
+  letter-spacing: to-rem(10px);
+  text-transform: uppercase;
+}
+
+.subTitle-txt {
+  margin-top: to-rem(6px);
+  font-size: to-rem(20px);
+}
+
+.post-container {
+  @include breakpoint($pad, true) {
+    justify-content: space-between;
+  }
+
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  margin-top: to-rem(32px);
+}
