@@ -49,6 +49,10 @@ export default {
   ** Axios module configuration
   ** See https://axios.nuxtjs.org/options
   */
+  env: {
+    weatherUrl: 'https://api.openweathermap.org/data/2.5/weather',
+    weatherApiKey: '8560b79eed51d63710f73068c3a45d58'
+  },
   axios: {
   },
   /*
